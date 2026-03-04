@@ -1,6 +1,6 @@
 import java.util.Scanner; 
 
-public class OddEvenCheck {
+public class OddEven {
     public static void main(String[] args) {
         int num;
         Scanner input = new Scanner(System.in); 
