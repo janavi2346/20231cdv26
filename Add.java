@@ -1,10 +1,8 @@
 import java.util.Scanner; 
-
 public class OddEven {
     public static void main(String[] args) {
         int num;
         Scanner input = new Scanner(System.in); 
-
         System.out.print("Enter an integer number: ");
         num = input.nextInt(); 
         if (num % 2 == 0) {
@@ -12,7 +10,6 @@ public class OddEven {
         } else {
             System.out.println("The given number " + num + " is Odd");
         }
-
         input.close(); 
     }
 }
